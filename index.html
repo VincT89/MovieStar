@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="./swiper-bundler.min.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Responsive movie dashboard - Bedimcode</title>
+</head>
+
+<body>
+  <img src="./img/banner.png" alt="image" class="bg__image">
+  <div class="bg__blur"></div>
+
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <div class="header__content">
+      <a href="#" class="header__logo">MOVIESTAR</a>
+
+      <div class="header__actions">
+        <i class="ri-notification-2-line"></i>
+        <i class="ri-account-circle-line"></i>
+
+        <div class="header__menu" id="header-menu">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+    </div>
+    <form action="" class="header__search">
+      <i class="ri-search-line"></i>
+      <input type="search" placeholder="Cerca Film" class="header__input">
+    </form>
+  </header>
+
+  <!--==================== NAV ====================-->
+  <nav class="nav" id="nav">
+    <div class="nav__menu">
+      <a href="#" class="nav__logo">MOVIESTAR</a>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            <i class="ri-home-line"></i><span>Home</span>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            <i class="ri-movie-line"></i><span>Movie</span>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            <i class="ri-film-line"></i><span>Films</span>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            <i class="ri-heart-3-line"></i><span>Preferiti</span>
+          </a>
+        </li>
+      </ul>
+
+      <div>
+        <h3 class="nav__title">Account</h3>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="ri-account-circle-line"></i><span>Profilo</span>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">
+              <i class="ri-account-circle-fill"></i><span>Profilo 2</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#" class="nav__link">
+      <i class="ri-logout-box-line"></i> <span>Logout</span>
+    </a>
+    <div class="nav__close" id="nav-close">
+      <i class="ri-close-line"></i>
+    </div>
+  </nav>
+
+  <!--==================== DASHBOARD ====================-->
+  <main class="main">
+    <!--==================== BANNER ====================-->
+    <section class="banner">
+      <article class="banner__card">
+        <a href="#" class="banner__link">
+          <img src="./img/banner.png" alt="" class="banner__img">
+          <div class="banner__shadow"></div>
+          <div class="banner__data">
+            <h2 class="banner__title">Avengers</h2>
+            <span class="banner__category">Action</span>
+          </div>
+        </a>
+      </article>
+    </section>
+
+    <!--==================== MOVIES ====================-->
+    <section class="movie">
+      <h3 class="card__title">Movies</h3>
+      <div class="movie__swiper swiper">
+        <div class="swiper-wrapper">
+
+          <article class="card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/movie-1.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="card__data">
+                <h3 class="card__title">Avengers</h3>
+                <span class="card__category">Azione</span>
+              </div>
+
+              <i class="ri-heart-3-line card__like"></i>
+            </a>
+          </article>
+
+          <article class="card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/movie-2.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="card__data">
+                <h3 class="card__title">Interstellar</h3>
+                <span class="card__category">Fantascienza</span>
+              </div>
+
+              <i class="ri-heart-3-line card__like"></i>
+            </a>
+          </article>
+
+          <article class="card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/movie-3.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="card__data">
+                <h3 class="card__title">Il Signore degli Anelli</h3>
+                <span class="card__category">Fantascienza</span>
+              </div>
+
+              <i class="ri-heart-3-line card__like"></i>
+            </a>
+          </article>
+
+          <article class="card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/movie-4.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="card__data">
+                <h3 class="card__title">Inception</h3>
+                <span class="card__category">Azione</span>
+              </div>
+
+              <i class="ri-heart-3-line card__like"></i>
+            </a>
+          </article>
+
+          <article class="card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/movie-5.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="card__data">
+                <h3 class="card__title">Il Cavaliere Oscuro</h3>
+                <span class="card__category">Fantascienza</span>
+              </div>
+
+              <i class="ri-heart-3-line card__like"></i>
+            </a>
+          </article>
+
+          <article class="card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/movie-6.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="card__data">
+                <h3 class="card__title">Avengers - Age of Ultron</h3>
+                <span class="card__category">Azione</span>
+              </div>
+
+              <i class="ri-heart-3-line card__like"></i>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!--==================== NEW ====================-->
+    <section class="new">
+      <h3 class="card__title">Nuovi</h3>
+      <div class="new__swiper swiper">
+        <div class="swiper-wrapper">
+
+          <article class="new__card card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/new-1.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="new__data card__data">
+                <h3 class="card__name">Jurassic World</h3>
+                <span class="card__category">Fantascienza</span>
+              </div> 
+            </a>
+          </article>
+
+          <article class="new__card card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/new-2.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="new__data card__data">
+                <h3 class="card__name">Spider-man No Way Home</h3>
+                <span class="card__category">Fantascienza</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="new__card card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/new-3.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="new__data card__data">
+                <h3 class="card__name">I segreti di Silente</h3>
+                <span class="card__category">Avventura - Fantasia</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="new__card card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/new-4.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="new__data card__data">
+                <h3 class="card__name">Toy Story</h3>
+                <span class="card__category">Cartoni Animati</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="new__card card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/new-5.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="new__data card__data">
+                <h3 class="card__name">Sonic 2</h3>
+                <span class="card__category">Avventura - Fantasia</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="new__card card__article swiper-slide">
+            <a href="#" class="card__link">
+              <img src="./img/new-6.png" alt="" class="card__img">
+              <div class="card__shadow"></div>
+              <div class="new__data card__data">
+                <h3 class="card__name">X-Men</h3>
+                <span class="card__category">Fantascienza</span>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+  </main>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="./swiper-bundler.min.js" async></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="main.js" async></script>
+</body>
+
+</html>
